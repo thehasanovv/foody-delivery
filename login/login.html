@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="header-left">
+          <a href="../index.html">
+            <img src="/public/images/foodylogo.svg" alt="foodlogo" />
+          </a>
+        </div>
+
+        <div class="header-right">
+          <img src="/public/images/language.svg" alt="" />
+        </div>
+
+        <div class="toggle">
+          <img src="/public/images/menu.png" alt="menu">
+        </div>
+
+        <div class="hamburger-menu">
+          <div class="close">
+            <img src="/public/images/close.png" alt="close">
+          </div>
+
+          <div class="logo-flag">
+            <div class="flags">
+              <img src="/public/images/language.svg" alt="" />
+            </div>
+            <div class="sign-up">
+              <button>
+                <a href="#">Sign Up</a>
+              </button>
+            </div>
+            
+          </div>
+
+          <ul>
+            <li><a href="/index.html" style="color: #d63626">Home</a></li>
+            <li><a href="/restaurants/restaurant.html">Restaurants</a></li>
+            <li><a href="/about/about.html">About Us</a></li>
+            <li><a href="/howitworks/hiw.html">How it works</a></li>
+            <li><a href="/faqs/faqs.html">FAQs</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <div class="main-content">
+        <div class="main-left">
+          <div class="left-img">
+            <img src="/public/images/login.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="main-right">
+          <div class="signup">
+            <button id="login-btn">Login</button>
+            <button id="signup-btn">Sign Up</button>
+          </div>
+
+          <!--LOG IN SECTION-->
+          <div class="login-container">
+            <div class="inputs">
+              <label for="name">Username</label>
+              <input type="text" name="name" />
+
+              <label for="password">Password</label>
+              <input type="password" name="password" />
+            </div>
+
+            <div class="login-btn">
+              <button>Log In</button>
+            </div>
+          </div>
+
+          <!--REGISTER SECTION-->
+
+          <div class="signup-container">
+            <div class="inputs">
+              <label for="fullname">Full Name</label>
+              <input type="text" name="fullname" />
+
+              <label for="name">Username</label>
+              <input type="text" name="name" />
+
+              <label for="email">E-mail</label>
+              <input type="email" name="email" />
+
+              <label for="password">Password</label>
+              <input type="password" name="password" />
+            </div>
+
+            <div class="login-btn">
+              <button>Log In</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./login.js" defer></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
